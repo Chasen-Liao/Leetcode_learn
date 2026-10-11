@@ -11,7 +11,7 @@ class Solution:
 
         target=sum_num//2
         @cache
-        def f(i,rest_num): # 对于前i个数字进行选择  剩余容量rest_num  是否可以使背包恰好填满
+        def f(i,rest_num): # 对于前i个数字进行选择  剩余容量 rest_num  是否可以使背包恰好填满
             if rest_num==0:
                 return True
             if i==0:
