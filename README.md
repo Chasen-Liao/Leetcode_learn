@@ -1,3 +1,32 @@
+# Leetcode 刷题工作区
+
+## VS Code 使用方式
+
+1. 用 VS Code 打开本仓库文件夹，或根目录的 `Leetcode_learn.code-workspace`。力扣插件按全局安装使用，不要求专用 Profile。
+2. 在力扣侧栏登录自己的账号。当前电脑使用中国站（`leetcode-cn`）、Python 3，新题保存到 `MyCode/`。
+3. 选题后使用文件上方的 **Test / Submit** 测试和提交。账号、Cookie 和 Token 不要写进仓库。
+4. 本地脚本运行：`Ctrl+Shift+B`；调试当前文件：`F5`。先通过 `Python: Select Interpreter` 选择可用的 Python。
+
+原有分类目录是教学题解，保留不动；独立练习放在 `MyCode/`，避免覆盖参考答案。仅有 `Solution` 定义的文件直接运行不会输出结果，需添加本地调用；在线测试优先使用插件。
+
+### 换电脑时
+
+按 `.vscode/extensions.json` 的推荐安装扩展。在 VS Code 的**用户设置**中配置 `leetcode.defaultLanguage` 为 `python3`、`leetcode.endpoint` 为 `leetcode-cn`，将 `leetcode.workspaceFolder` 设为本机仓库下 `MyCode` 的绝对路径。必要时将 `leetcode.nodePath` 设为本机 Node.js 可执行文件路径。
+
+力扣插件的这些设置是 application 级，不能直接放进 `.vscode/settings.json`，且不随 Git 同步。仓库配置不含本机绝对路径。中文界面可通过 `Configure Display Language` 选择 `zh-cn`，第三方插件部分按钮仍可能是英文。
+
+### AI 辅助规则
+
+本仓库的 `AGENTS.md` 采用学习优先模式：默认先给提示，不直接给完整解答；只有明确要求答案时才给出完整代码。
+
+### Git 发布
+
+- 原仓库：`jusway/Leetcode_learn`（本机 remote：`origin`）。
+- 个人公开 Fork：`Chasen-Liao/Leetcode_learn`（本机 remote：`personal`）。
+- 环境配置分支：`chore/leetcode-workspace`；后续使用 `git push personal HEAD` 推送到自己的 Fork。
+
+---
+
 ### Leetcode入门和常见的算法套路
 
 #### 课程目标

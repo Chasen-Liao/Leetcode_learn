@@ -1,0 +1,14 @@
+{
+  "files.encoding": "utf8",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "python.analysis.typeCheckingMode": "off",
+  "python.terminal.executeInFileDir": true,
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "search.exclude": {
+    "**/.venv": true,
+    "**/__pycache__": true
+  }
+}

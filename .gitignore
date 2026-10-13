@@ -1,1 +1,9 @@
-.idea
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.leetcode/
